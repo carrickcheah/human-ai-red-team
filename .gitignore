@@ -1,0 +1,57 @@
+# ============================================
+# HART — Human-AI Red Teaming
+# ============================================
+
+# OS
+.DS_Store
+._*
+Thumbs.db
+
+# IDE & Editors
+.vscode/
+.idea/
+.cursor/
+*.swp
+*.swo
+
+# Claude Code
+.claude/
+CLAUDE.md
+CLAUDE.local.md
+
+# Private research documents
+PhD_Research_Intent_UM.md
+ROADMAP.md
+
+# Environment & Secrets
+.env
+.env.*
+*.pem
+*.key
+
+# PDFs (large binary — keep locally, not in git)
+*.pdf
+
+# Cloned reference repos
+repo/
+
+# Node / Bun
+node_modules/
+dist/
+*.tsbuildinfo
+bun.lockb
+
+# Python
+__pycache__/
+*.py[oc]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+
+# Build
+build/
+.cache/
+
+# Worktrees
+.worktrees
